@@ -1,6 +1,6 @@
 *** Variables ***
 
-${urlBase}                    https://the-originals.qacoders.dev.br/api/login
+${urlBase}                    https://automacao.qacoders.dev.br/login
 ${emailValido}                sysadmin@qacoders.com
 ${emailInput}                 id=email
 ${senhaValida}                1234@Test
@@ -20,7 +20,7 @@ ${botaoSalvarNovo}            id=save
 ${cadastroInputDadosDarazaoSocial}    id=companyName
 ${CadastroInputNomeFantasyName}       id=fantasyName           
 ${CadastroInputEmail}                 id=companyMail
-${CadastroInputCampocnpj}             id=//input[contains(@name,'matriz')]           
+${CadastroInputCampocnpj}             id=matriz          
 ${CadastroInputTelephone}             id=telephone 
 ${CadastroInputDescricaoDoServico}    id=serviceDescription   
 ${CadastroInputNomeDoResponsavel}     id=fullName   
