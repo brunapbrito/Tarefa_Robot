@@ -20,10 +20,12 @@ jobs:
       run:  |
         pip install robotframework
         pip install robotframework-requests
+        pip install robotframework-seleniumlibrary
+
 
     - name: Run Robot Framework tests
       run:  |
-        robot   -d results tests
+        robot -d results tests
 
     - name: Salvar Resultado dos testes
       if: ${{ always() }} 
