@@ -1,6 +1,6 @@
 name: Robot framework Tests
 
-On: push
+on: push
 
 jobs:
   test:
